@@ -1,0 +1,165 @@
+<div class="modal-header">
+    <h2>რეგისტრაცია</h2>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.close(this.id)">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <form (ngSubmit)="onFormSubmit(form)" #form="ngForm" method="POST" class="register-form">
+        <!-- <app-places
+        type="country"
+        (onChange)="onSuggestion($event)"
+        (onClear)="onClear($event)"
+      ></app-places> -->
+        <!-- <div class="form-group">
+            <label> <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="animalCategory"
+            type="radio" class="form-control">
+        </div> -->
+        <div class="form-group">
+            <label>ცხოველის კატეგორია</label>
+            <div class="form-control">
+              <label class="radio-inline">
+                <input type="radio" name="animalCategory" value="1" ngModel>
+                ძაღლი
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="animalCategory" value="2" ngModel>
+                კატა
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="animalCategory" value="3" ngModel>
+                ჩიტი
+              </label>
+            </div>
+          </div>
+        <div class="form-group">
+            <label>ცხოველის ჯიში <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="animalBreed"
+            type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>სახელი <span class="required">*</span> </label>
+            <input 
+            ngModel
+            name="name"
+            required
+            type="text" class="form-control" 
+            >
+        </div>
+        <div class="form-group">
+            <label>ასაკი <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="age"
+            type="number" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>გაჩუქების მიზეზი <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="reasonToAdopt"
+            type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>მდგომარეობა <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="condition"
+            type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>პოვნის თარიღი <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="foundDate"
+            type="date" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>ლოკაცია <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="locationCity"
+            type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>ფერი <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="color"
+            type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>სურათი <span class="required">*</span> </label>
+            <input 
+            ngModel
+            required
+            name="imageUrl"
+            type="url" class="form-control">
+        </div>
+        <!-- <div class="form-group">
+            <select name="gender" id="gender">
+                <option value="1" name="gender">მამრობითი</option>
+                <option value="2" name="gender">მდედრობითი</option>
+                <option value="3" name="gender">სხვა</option>
+            </select>
+        </div> -->
+        <!-- <div class="form-group">
+            <label for="gender">სქესი</label>
+            <div class="gedner-radios">
+                <div (click)="onGenderRadioClick(1)" class="form-check form-check-inline" 
+                [ngClass]="{'activeGender':IsMaleSelected}">
+                  <input #maleRadio 
+                  ngModel
+                  class="form-check-input" 
+                  type="radio" 
+                  value="1" 
+                  name="gender">
+                  <label class="form-check-label" for="inlineRadio1">მამრობითი</label>
+                </div>
+                <div (click)="onGenderRadioClick(2)" class="form-check form-check-inline"
+                [ngClass]="{'activeGender':!IsMaleSelected}">
+                  <input #femaleRadio 
+                  ngModel
+                  class="form-check-input" 
+                  value="2" type="radio" 
+                  name="gender">
+                  <label class="form-check-label" for="inlineRadio2">მდედრობითი</label>
+                </div>
+            </div>
+        </div> -->
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="form-control">
+              <label class="radio-inline">
+                <input type="radio" name="sex" value="1" [(ngModel)]="sex">
+                მამრობითი
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="sex" value="2" [(ngModel)]="sex">
+                მდედრობითი
+              </label>
+            </div>
+        </div>
+        <button 
+        type="submit" 
+        class="btn btn-dark"
+        [disabled]="!form.valid"
+        >დამატება</button>
+    </form>
+</div>
+<!-- <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="activeModal.close(this.id)">Close</button>
+</div> -->

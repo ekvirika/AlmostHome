@@ -1,0 +1,25 @@
+<section class="animal">
+	<div class="animal__photo">
+		<div class="photo-container">
+			<div class="photo-main">
+                <img src="{{animal.imageUrl}}" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="animal__info">
+		<div class="title">
+            <h1> {{animal.name}} </h1>
+            <h3> {{animal.reasonToAdopt}} </h3>
+			<!-- <p>{{animal.Age}}</p> -->
+		</div>
+		<div class="description">
+            <h4>ასაკი: <span class="animal-details">{{animal.age}} წლის</span></h4>
+			<p>ჯიში: <span class="animal-details">{{animal.animalBreed}}</span></p>
+			<p>ლოკაცია: <span class="animal-details">{{animal.locationCity}}</span></p>
+			<p>მდგომარეობა: <span class="animal-details">{{animal.condition}}</span></p>
+			<p>ფერი: <span class="animal-details">{{animal.color}}</span></p>
+		</div>
+        <p><label for="learn-more">გაიგე მეტი</label></p>
+        <p><label for="adoption">ვიჩუქებ!</label></p>
+	</div>
+</section>

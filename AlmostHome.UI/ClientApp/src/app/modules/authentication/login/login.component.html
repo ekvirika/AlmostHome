@@ -1,0 +1,59 @@
+<img class="wave" src="../../../../assets/Images//wave.png">
+<div class="container">
+    <div class="img">
+        <img src="../../../../assets/Images/bg.svg">
+    </div>
+    <div class="login-content">
+        <!-- <form (ngSubmit)="onFormSubmit(form)" #form="ngForm"  class="register-form">
+            <img src="../../../../assets/Images/avatar.svg">
+            <h2 class="title">მოგესალმებით</h2>
+            <div class="form-group">
+                <label>მეილი</label>
+                <input 
+                ngModel
+                name="Email"
+                required
+                type="email" class="form-control" 
+                >
+              </div>
+              <div class="form-group">
+                <label>პაროლი</label>
+                <input 
+                ngModel 
+                name="Password"
+                required
+                type="password" class="form-control" 
+                >
+              </div>
+            <button type="submit" class="btn"
+            [routerLink]="['/']"
+            >შესვლა</button>
+            <a [routerLink]="['/authentication/register']">თუ არ გაქვს ანგარიში, დააჭირე აქ!</a>
+          </form> -->
+          <form (ngSubmit)="onFormSubmit(form)" #form="ngForm" class="register-form">
+            <img src="../../../../../assets/Images/avatar.svg">
+            <h2 class="title">მოგესალმებით</h2>
+            <div class="form-group">
+                <label>მეილი</label>
+                <input 
+                ngModel
+                name="email"
+                required
+                type="email" class="form-control" 
+                >
+              </div>
+              <div class="form-group">
+                <label>პაროლი</label>
+                <input 
+                ngModel
+                name="password"
+                required
+                type="password" class="form-control" 
+                >
+              </div>
+            <button type="submit" 
+            class="btn">შესვლა</button>
+            <a [routerLink]="['/authentication/register']">თუ არ გაქვს ანგარიში, დააჭირე აქ!</a>
+        </form>
+    </div>
+  </div>

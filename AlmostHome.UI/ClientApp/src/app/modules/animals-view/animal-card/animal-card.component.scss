@@ -1,0 +1,131 @@
+/* ----- Variables ----- */
+@import "../../../../assets/SCSS/common/colors";
+$color-primary: #4c4c4c;
+$color-neutral: #a6a6a6;
+$color-highlight: #ff3f40;
+
+/* ----- Global ----- */
+
+
+h3 {
+	font-size: 0.7em;
+	letter-spacing: 1.2px;
+	color: $neutral;
+}
+
+img {
+    max-width: 100%;
+    filter: drop-shadow(1px 1px 3px $neutral);
+    object-fit: fill;
+}
+
+/* ----- Product Section ----- */
+.animal {
+	display: grid;
+	grid-template-columns: 0.9fr 1fr;
+	margin: auto;
+	padding: 2.5em 0;
+	min-width: 400px;
+	background-color: $neutral;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* ----- Photo Section ----- */
+.animal__photo {
+	position: relative;
+}
+
+.photo-container {
+	position: absolute;
+	left: -2.5em;
+	display: grid;
+	grid-template-rows: 1fr;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+}
+
+.photo-main {
+	border-radius: 6px 6px 0 0;
+	background-color: $primaryLight;
+	background: radial-gradient($primary, $secondary);
+
+
+	img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		filter: saturate(150%) contrast(120%) hue-rotate(10deg)
+			drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
+	}
+}
+
+
+/* ----- Informations Section ----- */
+.animal__info {
+	padding: 0.8em 0;
+}
+
+.title {
+	h1 {
+		margin-bottom: 0.1em;
+		color: $primary;
+		font-size: 1.5em;
+		font-weight: 900;
+	}
+
+	span {
+		font-size: 0.7em;
+		color: $neutral;
+	}
+}
+
+.description {
+	clear: left;
+	margin: 2em 0;
+
+	h3 {
+		margin-bottom: 1em;
+	}
+
+	ul {
+		font-size: 0.8em;
+		list-style: disc;
+		margin-left: 1em;
+	}
+
+	li {
+		text-indent: -0.6em;
+		margin-bottom: 0.5em;
+	}
+}
+
+
+label, a{
+	cursor: pointer;
+	user-select: none;
+	text-decoration: none;
+	display: inline-block;
+	color: inherit;
+	transition: border 0.2s;
+	border-bottom: 5px solid rgba($primaryLight, 0.2);
+	padding: 3px 2px;
+	&:hover{
+	  border-bottom-color: $primaryLight;
+	}
+  }
+
+  p, h4{
+      color: $secondary !important;
+      font-weight: 700;
+  }
+
+  .animal-details{
+      color: black !important;
+      font-weight: 400;
+  }

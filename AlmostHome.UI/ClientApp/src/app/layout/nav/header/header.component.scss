@@ -1,0 +1,64 @@
+@import '../../../../assets/SCSS/common/colors';
+
+.navbar-expand-lg {
+    width:78%;
+    margin:0px;
+    margin:auto;
+    max-width: 1450px;
+}
+
+.nav-main-icon {
+    padding-top:1px;
+    margin-left: 35px;
+}
+
+.nav-main-icon img {
+    margin:0px 15px 0px 5px!important;
+}
+
+.navbar-brand  {
+    display: flex;
+    justify-content: space-between;
+    color:$primaryLight!important;
+}
+
+.navbar-brand .fa-bars {
+    font-size: 25px;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.navbar-brand img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    margin: 0px 15px 0px 40px;
+}
+
+.navbar-brand p {
+    padding-top: 2px;
+    font-size: 18px;
+}
+
+.nav-link {
+    padding-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "BPG LE Studio 02 Caps", sans-serif;
+    :hover{
+        color:$primaryLight !important;
+    }
+}
+
+.activePage {
+    color:$primaryLight !important;
+}
+
+.mr-right .nav-item:last-child a i {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.link-acitve{
+    color:$primaryLight!important;
+}

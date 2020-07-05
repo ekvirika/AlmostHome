@@ -1,0 +1,41 @@
+@import '../../../assets/SCSS/common/colors';
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css");
+
+.main{
+//     display: grid;
+//     // grid-template-columns: repeat(2, 1fr);
+//     grid-template-columns: 0.5fr 1fr;
+//     grid-gap :7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "BPG LE Studio 02", sans-serif;
+    // padding: 0 2rem;
+
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .find-best-frind{
+            width: 61vw;
+            height: 85vh;
+            align-self: flex-end;
+        }
+    }
+
+    .left{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        h1{
+            font-weight: 200 !important;
+        }
+    }
+}
+
+.second{
+    img{
+        width: 80vw;
+        border-radius: 15px;
+    }
+}

@@ -1,0 +1,27 @@
+@import "../../../../assets/SCSS/common/colors";
+
+.loading {
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background:rgba(200,200,200,0.75);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999999;
+  }
+  
+  .spinner-border {
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+    color: $primary;
+    vertical-align: text-bottom;
+    border: .45em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}

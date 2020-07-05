@@ -1,0 +1,70 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand">
+            <a routerLink="/" class="navbar-brand nav-main-icon">
+                <p>თითქმის სახლში</p>
+            </a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <ul class="navbar-nav">
+            <!-- <li
+              class="nav-item"
+              routerLinkActive="activePage"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              <a class="nav-link" [routerLink]="['/']">მთავარი</a>
+            </li>
+            <li class="nav-item" 
+            routerLinkActive="activePage"
+            >
+              <a class="nav-link" [routerLink]="['/authentication/login']"
+                >შესვლა</a
+              >
+            </li> -->
+              
+            <!-- <li class="nav-item" *ngFor="let item of navItems">
+              <a 
+              [routerLink]="[item.link]"
+              routerLinkActive="activePage"
+              class="nav-link">{{ item.title }}</a>
+            </li>  -->
+            <li class="nav-item">
+              <a 
+              [routerLink]="['/']"
+              routerLinkActive="activePage"
+              [routerLinkActiveOptions]="{ exact:true }"
+              class="nav-link">მთავარი</a>
+            </li>
+            <li class="nav-item">
+                <a 
+                routerLink=''
+                [routerLink]="['/animals-view']"
+                routerLinkActive="activePage"
+                class="nav-link">ცხოველები</a>
+            </li>
+            <li 
+            *ngIf="!userIsOnline;else elseBlock"
+            class="nav-item">
+                <a 
+                [routerLink]="['/authentication/login']"
+                routerLinkActive="activePage"
+                class="nav-link" >შესვლა</a>
+            </li>
+            <ng-template #elseBlock>
+                <li class="nav-item">
+                    <a 
+                    [routerLink]="['/profile']"
+                    routerLinkActive="activePage"
+                    class="nav-link" >პროფილი</a>
+                </li>
+            </ng-template>
+          </ul>
+        </div>
+    </nav>
+</header> 

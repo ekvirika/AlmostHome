@@ -1,0 +1,18 @@
+<section class="full-page">
+  <h1 class="title">პროფილი</h1>
+  <div class="user-card">
+      <div class="user-info-wrapper">
+        <div class="image-cont" title="სურათის შეცვლა">
+          <img src="{{user.imageUrl}}" alt="">
+        </div>
+        <div class="user-info">
+          <h3>{{userFullName}}</h3>
+        </div>
+      </div>
+      <button class="btn btn-log-out btn-dark"  
+      (click)="logOutClick()"
+      [routerLink]="['/authentication/login']">
+      გამოსვლა</button>
+    </div>
+</section>
+    

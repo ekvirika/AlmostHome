@@ -1,0 +1,53 @@
+@import "./colors";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Montserrat', Arial, sans-serif;
+    // font-family: "BPG Mrgvlovani", sans-serif !important;
+    font-family: "BPG LE Studio 02", sans-serif;
+}
+
+h2{
+    color: $primaryLight;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin: 3vw;
+}
+
+h1, h2 {
+    font-family: "BPG LE Studio 02 Caps", sans-serif !important;
+}
+
+input ::placeholder{
+    color: white !important;
+    background: white;
+}
+
+
+.highlight{
+    color: $primaryLight;
+    font-weight: 500 !important;
+    font-family: "BPG LE Studio 02 Caps", sans-serif;
+
+}
+
+.container {
+    min-height: 95vh !important;
+    min-width: 85vw;
+}
+
+.required{
+    color: $primaryLight;
+    font-weight: bold;
+}
+
+button, a{
+    font-family: "BPG LE Studio 02 Caps", sans-serif !important;
+}
+
+input[type="radio"]{
+    margin: 0 6px;
+}

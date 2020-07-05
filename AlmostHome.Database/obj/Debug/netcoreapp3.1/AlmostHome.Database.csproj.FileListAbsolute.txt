@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Database.deps.json
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Database.runtimeconfig.json
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Database.runtimeconfig.dev.json
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Database.dll
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Database.pdb
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Models.dll
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Models.pdb
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.AssemblyInfo.cs
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.csproj.CopyComplete
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.dll
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.pdb
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Database\obj\Debug\netcoreapp3.1\AlmostHome.Database.genruntimeconfig.cache

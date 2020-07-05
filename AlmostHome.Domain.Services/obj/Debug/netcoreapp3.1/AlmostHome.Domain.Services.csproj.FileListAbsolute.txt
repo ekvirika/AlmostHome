@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Services.deps.json
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Services.runtimeconfig.json
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Services.runtimeconfig.dev.json
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Services.dll
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\bin\Debug\netcoreapp3.1\AlmostHome.Domain.Services.pdb
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.AssemblyInfo.cs
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.dll
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.pdb
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.genruntimeconfig.cache
+C:\Users\user\Desktop\Titkmis Saxlshi\AlmostHome\AlmostHome.Domain.Services\obj\Debug\netcoreapp3.1\AlmostHome.Domain.Services.csprojAssemblyReference.cache
