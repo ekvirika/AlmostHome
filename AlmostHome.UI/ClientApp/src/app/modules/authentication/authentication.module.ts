@@ -4,6 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthRoutingModule } from './authentication.routing';
+import { AuthLayoutComponent } from '../../layout/auth-layout/auth-layout.component';
 
 
 
@@ -13,13 +14,13 @@ import { AuthRoutingModule } from './authentication.routing';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    AuthRoutingModule
+    AuthRoutingModule,
   ],
   exports: [
     RegisterComponent,
     LoginComponent,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ]
 })
 export class AuthenticationModule { }

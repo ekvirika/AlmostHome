@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AlmostHome.Domain.Services.Abstraction
 {
-    interface IAnimalRepository
+    public interface IAnimalRepository
     {
     }
 }

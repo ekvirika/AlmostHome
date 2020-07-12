@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { OnlineUserTrackerService } from '../../shared/services/online-user-tracker.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile',
@@ -9,7 +10,12 @@ import { OnlineUserTrackerService } from '../../shared/services/online-user-trac
 export class ProfileComponent implements OnInit {
     private user  = this.userTracker.getOnlineUser();
     public userFullName : string;
-    constructor(private userTracker : OnlineUserTrackerService) { }
+    constructor(private userTracker : OnlineUserTrackerService,
+        private router : Router) { }
+
+    // ngOnDestroy(): void {
+    //     window.location.reload();
+    // }
 
     ngOnInit() {
         this.user = this.userTracker.getOnlineUser();
@@ -17,8 +23,8 @@ export class ProfileComponent implements OnInit {
     }
 
     logOutClick(){
+        this.router.navigate(['/authentication/login']);
         this.userTracker.logOut();
-        console.log("logged out" + this.userTracker.IsUserOnline());
     }
 
 }

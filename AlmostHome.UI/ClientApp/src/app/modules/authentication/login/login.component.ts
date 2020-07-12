@@ -4,6 +4,7 @@ import { AccountDto } from '../../../shared/models/AccountDto.Model';
 import { Account } from '../../../shared/models/Account.model';
 import { OnlineUserTrackerService } from '../../../shared/services/online-user-tracker.service';
 import { AccountService } from 'src/app/shared/services/account.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +13,8 @@ import { AccountService } from 'src/app/shared/services/account.service';
 })
 export class LoginComponent implements OnInit {
   accounts : Account[] = [];
-  constructor(private accountService : AccountService) {  }
+  constructor(private accountService : AccountService,
+    private router : Router) {  }
 
   
   ngOnInit() {
@@ -43,6 +45,6 @@ export class LoginComponent implements OnInit {
       console.log("error");
     }
 
-    
+    this.router.navigate(['/profile']);
   }
 }

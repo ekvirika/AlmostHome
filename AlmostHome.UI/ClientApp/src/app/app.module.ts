@@ -25,6 +25,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from './modules/animals-view/modal/modal.component';
 import { PlacesComponent } from './modules/animals-view/modal/places.component';
 import { AnimalCardCpmponent } from './modules/animals-view/animal-card/animal-card.component';
+import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { AnimalCardCpmponent } from './modules/animals-view/animal-card/animal-c
   ],
   entryComponents: [
     ModalComponent,
-    PlacesComponent
+    PlacesComponent,
   ],
   imports: [
     //Angular

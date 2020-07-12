@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AlmostHome.Domain.Services.Implementation
 {
-    class AccountRepository
+    public class AccountRepository
     {
     }
 }

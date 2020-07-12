@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit  {
 
   addTextAnimation(){
     var options = {
-      strings: ['', 'ახალი საუკეთესო მეგობარი'],
+      strings: ['', 'ახალი <br> საუკეთესო <br> მეგობარი'],
       typeSpeed: 40
     };
     
